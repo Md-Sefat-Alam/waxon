@@ -1,0 +1,4 @@
+.activeImage {
+  opacity: 1 !important;
+  transition: all 0.2s;
+}

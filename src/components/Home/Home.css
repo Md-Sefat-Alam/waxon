@@ -1,0 +1,29 @@
+.home_name h3 {
+  font-size: 80px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  line-height: 1.1;
+  color: #4169e1;
+}
+.home_name h3.stroke {
+  -webkit-text-stroke: 1px #4169e1;
+  color: transparent;
+}
+.home_name span {
+  font-family: arial;
+  font-weight: 600;
+  display: inline-block;
+  padding-top: 20px;
+  font-style: italic;
+  color: #767676;
+}
+.inverted {
+  background-color: red;
+}
+@media only screen and (max-width: 425px) {
+  .home_name h3 {
+    font-size: 60px;
+  }
+}
